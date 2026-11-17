@@ -50,6 +50,18 @@ A centralized internal operations tracker custom-built for a fast-paced writing 
     * Automated the complete intake funnel from initial client engagement (Forms) to scheduling (Calendar) and internal accounting (Sheets).
     * Provides high-fidelity monitoring of active orders, gross revenue tracking, and operational profit margin calculations.
 
+### 5. FMCG Sales CRM & Order Management System
+
+A full-stack sales operations platform being developed through **Strynder** for a Nigerian soya oil producer. The system brings customer lifecycle management, sales follow-ups, orders, payments, and deliveries into one workspace.
+
+- **Tech Stack:** Next.js, TypeScript, Supabase (PostgreSQL, Auth), Cloudflare Workers, Hyperdrive, GitHub Actions
+- **Core Engineering:**
+  - **Customer Lifecycle Management:** Structured customer and prospect records with enquiry tracking and follow-up scheduling to support sales progression and repeat purchases.
+  - **Order-to-Cash Tracking:** Supports individual and bulk orders, deposits, outstanding balances, and delivery tracking, including delivery before full payment.
+  - **Operational Visibility:** Built dedicated Today, People, Orders, and Review interfaces to surface follow-ups, pending deliveries, and unpaid balances.
+  - **Database Security:** Implemented a restricted application database role, verified access restrictions, and configured encrypted database connectivity through Cloudflare Hyperdrive.
+  - **Quality Assurance:** Developed automated tests alongside lint, type-check, and build checks, with CSV exports to support reporting and operational review.
+
 ---
 
 ## 📈 Engineering Principles
